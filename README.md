@@ -1,2 +1,2 @@
 # Mjends portfolio
-This is my portfolio that contains almost all of my projects i have completed
+This is my portfolio that contains almost all of my projects that i have completed
