@@ -1,0 +1,32 @@
+button{
+    width: 65px;
+    height: 60px;
+    padding: 66px;
+    text-align: center;
+}
+
+#wrapper{
+    margin-top:150px;
+    margin-bottom:150px;
+    margin-left: 50px;
+
+}
+
+body {
+    background-color: grey;
+}
+
+#space {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:650px;
+    width: 400px;
+}
+
+p {
+    font-size: 50px;
+    padding: 100;
+    
+}
+
+
