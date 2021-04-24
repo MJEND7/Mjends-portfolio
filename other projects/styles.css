@@ -1,0 +1,33 @@
+/* Explanation in JS tab */
+
+/* Cool font from Google Fonts! */
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+body {
+	margin: 0px;
+	background-color: pink;
+}
+
+#text1, #text2 {
+	/* Your average text styling */
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 80pt;
+	
+	text-align: center;
+	
+	user-select: none;
+}
+/* Center the text i */
+ #container {
+	position: absolute;
+	margin: auto;
+	width: 100vw;
+	height: 100pt;
+	top: 0;
+	bottom: 0;
+	
+}
