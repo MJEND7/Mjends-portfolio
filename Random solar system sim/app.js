@@ -1,6 +1,8 @@
 //base code by Sten hougaard
 //edits bye MJEND
 
+//The codepen project: https://codepen.io/mjend7/pen/oNZoxEN
+
 const planets = 23;
 let svg = "";
 for (let a = 0; a < planets ; a++) {
