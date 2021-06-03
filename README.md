@@ -22,14 +22,17 @@
   </a><a href="#">
     <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/png/dev/tools/jetbrains_pycharm.png" alt="css3" style="vertical-align:top; margin:6px 4px">
   </a>
+  
+Hi, I am a programmer in school looking for some extra cash using my talent.
+I have done many projects with HTML, CSS, JavaScript, SCSS, THREE.js, and animte.js.
+I am looking to collab with people's projects, also Halo 2❤ is the best. 
 
-# Mjends portfolio
-This is my portfolio that contains almost all of my projects that i have completed
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MJEND7&show_icons=true&theme=radical)
 
-- 👋 Hi, I’m @MJEND7
-- 👀 I’m interested in, Web dev.
-- 🌱 I’m currently learning Web development.
-- 💞️ I’m looking to collaborate on MJENDS-portfolio.
-- 📫 How to reach me you can dm me on discord @mjend7 or at markuss.cowburn@gmail.com
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MJEND7&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+- 📫 How to reach me you can dm me on discord @MJEND#8601 or at markuss.cowburn@gmail.com
+
+
+
 
 
