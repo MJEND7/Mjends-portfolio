@@ -1,0 +1,50 @@
+$star-count: 20;
+$dot-count: 45;
+$speed: 4.3s;
+html,body{
+  width: 100%;height: 100%;
+}
+body{
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  margin:0;
+  *{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;border-radius:50%;
+  }
+}
+.galaxy:nth-child(1){
+  transform: translateX(-180px) scale(-1,1);
+}
+.galaxy:nth-child(2){
+  transform: translateX(180px) scale(1,-1);
+}
+.stars{
+  width: 800px;height: 100px;
+  .circle{
+    animation: $speed galaxy ease-in-out infinite reverse;
+  }
+  .dot{
+    width: 25px; height: 10px;
+    border: 2px dotted #fff;
+    $update-dot-count: $dot-count - 3;
+    @for $i from 0 through $dot-count{
+      &:nth-child(#{$i}){
+        transform: rotate($i * 360deg / $update-dot-count) translate(120px) scale(1.3 - $i * 1.3 / $update-dot-count);
+        border-color: hsla(800 - ($i * 70 / $update-dot-count),200%,25%,10); 
+      }
+    }
+  }
+  @for $i from 0 through $star-count{
+    &:nth-child(#{$i}){
+      transform: rotate($i * 160deg / $star-count) translate(298px);
+       .circle {
+        animation-delay: -$i * $speed / $star-count;
+      }        
+    }
+  }  
+}
+@keyframes galaxy{
+ 100%{
+   transform: rotate(360deg);
+  }
+}
