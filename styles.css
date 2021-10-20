@@ -15,6 +15,7 @@
     font-size: 24px;
     -webkit-font-smoothing: none;
     line-height: 1.2;
+    cursor: url("https://img.icons8.com/ios/24/000000/pixel-arrow.png"),auto;
   }
   h1 {
     font-size: 4rem;
@@ -29,12 +30,14 @@
     border-bottom: 0.2rem solid #14fdce;
     color: #14fdce;
     text-decoration: none;
+    cursor: url("https://img.icons8.com/ios-filled/50/000000/pixel-arrow.png"),auto;
   }
   a:active,
   a:focus,
   a:hover {
     background-color: #14fdce;
     color: #031e11;
+    cursor: url("https://img.icons8.com/material-two-tone/24/000000/pixel-arrow.png"),auto;
   }
   .piece {
     display: block;
@@ -75,7 +78,6 @@
     text-align: center;
     color: white;
     background: -webkit-linear-gradient(#fff, #555);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 0.1rem 0rem rgba(0, 0, 0, 0.4), 0 0 2rem rgba(0, 0, 0, 0.8);
     transform: translate(-50%);
@@ -157,7 +159,6 @@
   }
   ::-moz-selection [class^="icon-"], ::-moz-selection [class*=" icon-"] {
     font-family: 'uuxsl';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -169,7 +170,6 @@
   ::selection [class^="icon-"],
   ::selection [class*=" icon-"] {
     font-family: 'uuxsl';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
